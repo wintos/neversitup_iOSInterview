@@ -26,7 +26,9 @@ class ViewController: UIViewController {
                     [itemType.name:"เตียง",
                      itemType.price:59000],
                     [itemType.name:"หนังสือ",
-                     itemType.price:250]]
+                     itemType.price:250],
+                    [itemType.name:"แจกฟรี",
+                    itemType.price:0]]
     
     
     @IBOutlet weak var itemTextField: UITextField!
@@ -60,12 +62,10 @@ class ViewController: UIViewController {
         itemTextField.inputAccessoryView = toolBar
         itemTextField.inputView = pickerView
         itemTextField.tintColor = .clear
-        subTotalTextField.isUserInteractionEnabled = false
         priceTextField.isUserInteractionEnabled = false
         itemTextField.placeholder = "กรุณาเลือกรายการสินค้า"
         discountTextField.placeholder = "0"
         priceTextField.placeholder = "0"
-        subTotalTextField.placeholder = "0"
         discountTextField.delegate = self
     }
     

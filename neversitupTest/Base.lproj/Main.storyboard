@@ -85,7 +85,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yW1-uv-kj0">
+                                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yW1-uv-kj0">
                                                         <rect key="frame" x="187" y="0.0" width="187" height="66.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -120,7 +120,6 @@
                         <outlet property="discountTextField" destination="iPJ-It-s7e" id="anB-SW-pLc"/>
                         <outlet property="itemTextField" destination="eS3-U6-EHE" id="S6G-8P-wRc"/>
                         <outlet property="priceTextField" destination="drv-rn-2ro" id="dtL-Qg-Kwp"/>
-                        <outlet property="subTotalTextField" destination="yW1-uv-kj0" id="7l1-5u-4Jp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
